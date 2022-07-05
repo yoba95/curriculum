@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+     <meta name="description" content="Yobany Desarrollador Frontend graduado del Tecnologico Nacional del Valle de Oaxaca">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Icon del CV-->
+    <link rel="shortcut icon" href="/img/icons8-trabajando-con-una-computadora-portátil-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <!--Seccion Inicio-->
+    <section id="inicio">
+        <div class="contenido">
+           <header>
+            <div class="contenido-header">
+                <h1>MYCO</h1>
+                <nav id="nav" class="responsive">
+                    <ul id="links">
+                        <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                        <li><a href="#educacion" onclick="seleccionar(this)">EDUCACIÓN</a></li>
+                        <li><a href="#tecnologias" onclick="seleccionar(this)">TECNOLOGÍAS</a></li>
+                        <li><a href="#hobbies" onclick="seleccionar(this)">HOBBIES</a></li>
+                        <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                    </ul>
+                </nav>
+
+                <!--Iconos del menu responsive-->
+                <div id="icono-nav" onclick="responsiveMenu()">
+                   <i class="fa-solid fa-bars" style="color: white;"></i>
+                </div>
+
+                <!--iconos de las redes sociales-->
+                <div class="redes">
+                    <a href="https://www.gmail.com/" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/croyoz" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/yoba95?" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mario-o-4810ba229" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/cromitho/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+
+            </div>
+           </header> 
+
+           <div class="presentacion">
+            <p class="bienvenido">Hola a tod@s</p>
+            <h2>Soy <span>Mario Yobany Chavez Olivera</span>, Desarrollador Web Front-End</h2>
+            <p class="descripcion">Soy un desarrollador web, me gusta aprovechar todos los recursos online disponibles con el afán de ser capaz de encontrar soluciones a problemas complejos y cotidianos.</p>
+           </div>
+
+        </div>
+    </section>
+    <!--Seccion educacion-->
+    <section id="educacion">
+        <div class="contenedor-foto">
+            <img src="/img/porfolio.jpg" alt="">
+        </div>
+        <div class="educacion">
+            <p class="titulo-seccion">Educación</p>
+            <h2>Hola, soy <span>Yobany Chavez</span></h2>
+            <h3>Ingeniero en Informatíca</h3>
+            <p>Actualmente soy estudiante de Ingenería InformatÍca en el Instituto Tecnológico del Valle de Oaxaca.</p>
+            <br>
+            <p>Tecnológico: Instituto Tecnológico del Valle de Oaxaca, Agosto-Diciembre 2017 || Agosto-Diciembre 2022</p>
+        </div>
+    </section>
+    <!--seccion de tecnologias-->
+    <section id="tecnologias">
+        <h3 class="titulo-seccion">Tecnologías que manejo</h3>
+        <div class="fila">
+            <div class="tecnologia">
+                <span class="icono"><i class="fa-brands fa-html5"></i></span>
+                <h4>HyperText Markup Language ("HTML")</h4>
+                <hr>
+                <p>HTML5 es un estándar que sirve como referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado HTML) para la definición de contenido de una página web, como texto, imágenes, vídeos, juegos, entre otros…</p>
+            </div>
+            <div class="tecnologia">
+                <span class="icono"><i class="fa-brands fa-css3-alt"></i></span>
+                <h4>Cascading Style Sheets ("CSS")</h4>
+                <hr>
+                <p>CSS es un lenguaje de diseño gráfico que permite definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de los documentos web e interfaces de usuario escritas en HTML.</p>
+            </div>
+            <div class="tecnologia">
+                <span class="icono"><i class="fa-brands fa-js"></i></span>
+                <h4>JavaScript ("JS")</h4>
+                <hr>
+                <p>Lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico.</p>
+            </div>
+             <div class="tecnologia">
+                <span class="icono"><i class="fa-brands fa-php"></i></span>
+                <h4>Hypertext Preprocessor ("PHP")</h4>
+                <hr>
+                <p>Lenguaje de programación que permite el desarrollo web o aplicaciones web dinámicas, el cual es apto para incrustar el lenguaje HTML, ahora bien, siempre siguiendo algunas reglas establecidas. Además, el lenguaje PHP favorece a la conexión entre el servidor y a la interfaz del usuario.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="tecnologia">
+                <span class="icono"><i class="fa-brands fa-angular"></i></span>
+                <h4>Angular</h4>
+                <hr>
+                <p>Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo para crear aplicaciones eficientes y sofisticadas de una sola página.</p>
+            </div>
+            <div class="tecnologia">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>MySQL</h4>
+                <hr>
+                <p>Es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base de datos de código abierto más popular del mundo.</p>
+            </div>
+            <div class="tecnologia">
+                <span class="icono"><i class="fa-brands fa-laravel"></i></span>
+                <h4>Laravel</h4>
+                <hr>
+                <p>Laravel es un marco de aplicación web con una sintaxis expresiva y elegante. Framework de código abierto para desarrollar aplicaciones y servicios web con PHP</p>
+            </div>
+            <div class="tecnologia">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>MongoDB</h4>
+                <hr>
+                <p>Es un sistema de base de datos NoSQL, orientado a documentos y de código abierto. En lugar de guardar los datos en tablas, tal y como se hace en las bases de datos relacionales, MongoDB guarda estructuras de datos BSON con un esquema dinámico, haciendo que la integración de los datos en ciertas aplicaciones sea más fácil y rápida.</p>
+            </div>
+        </div>
+    </section>
+    <!-- seccion de hobbies-->
+    <div class="contenedor-hobbies" id="hobbies">
+        <h3>HOBBIES</h3>
+        <div class="hobbies">
+            <div class="info">
+                <p><span class="lista"></span>Escuchar música, especialmente Reggae, Rock & cumbias</p>
+                <span class="porcentaje">100%</span>
+            </div>
+            <div class="barra">
+                <div id="musica" class="">
+                </div>
+            </div>
+        </div>
+
+        <div class="hobbies">
+            <div class="info">
+                <p><span class="lista"></span>Jugar futbol</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="futbol" class="">
+                </div>
+            </div>
+        </div>
+        <div class="hobbies">
+            <div class="info">
+                <p><span class="lista"></span>Juegos de mesa</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="juegos" class="">
+                </div>
+            </div>
+        </div>
+        <div class="hobbies">
+            <div class="info">
+                <p><span class="lista"></span>Entrar a bootcamp de tecnología</p>
+                <span class="porcentaje">85%</span>
+            </div>
+            <div class="barra">
+                <div id="bootcamp" class="">
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--contacto-->
+   <section id="contacto">
+    <h3 class="titulo-seccion">Contactame</h3>
+    <p>Correo Electronico: myobanychavezdev@gmail.com</p>
+    <br>
+    <p>Celular: 9514005015</p> 
+   </section>
+    <!--footer-->
+    <footer>
+        <p>2022 &copy; Mario Yobany Chavez Olivera.</p>
+        <div class="redes">
+            <a href="https://www.gmail.com/" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.facebook.com/croyoz" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/yoba95?" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mario-o-4810ba229" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/cromitho/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
